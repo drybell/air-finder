@@ -1,6 +1,11 @@
-# air-finder
+# AirTraffic Finder Application
 Track Airplane Location and find distances between two airplanes.
-Program Name: test.py 
+I am using OpenSky API, and linked its Git page to this repo. I do recommend 
+taking a look at their repo as well as their website linked here: 
+https://opensky-network.org/apidoc/index.html
+
+Program Name: test.py (main driver)  <br /> 
+Files Required: countries.py (dictionary of bounding boxes for all countries)
 
 ## January 2nd 
 This project will use OpenSky API in order to pull relevant information about 
