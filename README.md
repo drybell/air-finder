@@ -11,7 +11,7 @@ with "countries.py" in order to track current airplane information.
 
 This is an in shell program that has a couple of current uses. 
 After running python3 test.py, the usages are: 
-# country:  
+### country:  
             Lets you see what planes are flying from a country of origin. First
             input a country that you want to track and the program will fetch
             data for all planes flying from that country.
@@ -20,20 +20,20 @@ After running python3 test.py, the usages are:
             country's borders. (This is quite finicky because I use a bounding box
             with only 4 coordinates, but it is still accurate within the box)
   
-# callsign: 
+### callsign: 
             Lets you append an airplane to a list for tracking purposes. You
             MUST input the correct callsign of the plane, which is simple if you
             have called <country> once and viewed the planes
   
-# list: 
+### list: 
             View all planes you are tracking using the <callsign> input
   
-# distance: 
+### distance: 
             Lets you use your tracking list to find the distance between two planes.
             Uses the Haversine formula to calculate distances given Earth is a perfect sphere.
             Also incorporates altitude of each plane for a better distance estimation
   
-# clear: 
+### clear: 
             Currently just clears your tracking list
 
 
