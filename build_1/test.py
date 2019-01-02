@@ -271,7 +271,7 @@ def quit(arg):
 def main(): 
 	global program_life 
 	global curr_country
-	print("Welcome to AirFinder powered by OpenSky API. This program will let you track and calculate current data of all airplanes in the sky.")
+	print("Welcome to AirTraffic Finder powered by OpenSky API. This program will let you track and calculate current data of all airplanes in the sky.")
 
 	while program_life:
 		print("Usage:\n<country>: Select what country you want to narrow your focus down to\n\
