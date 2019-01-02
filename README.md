@@ -1,4 +1,4 @@
-# air-finder
+# AirTraffic Finder Application
 Track Airplane Location and find distances between two airplanes.
 Program Name: test.py 
 
